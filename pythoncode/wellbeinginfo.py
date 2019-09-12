@@ -37,7 +37,7 @@ def print_csv():
     """Get the agegroup-percentage dictionary, set the attributes-satisfaction level as column headers and print out a csv file."""
     ages = change_agekeys()
     with open('age.csv', 'w') as f:
-        f.write('LS_poor, LS_low, LS_mod, LS_high, LS_great, FW_poor, FW_low, FW_mod, FW_high, FW_great, H_poor, H_mod, H_good, H_great, Lon_high, Lon_mod, Lon_low, Lon_no, Edu_low, Edu_mod, Edu_high, Edu_great, Par_low, Par_mod, Par_high, Par_great, agegroup\n')
+        f.write('LifeSatisfaction_poor, LifeSatisfaction_low, LifeSatisfaction_mod, LifeSatisfaction_high, LifeSatisfaction_great, FamilyWellbeing_poor, FamilyWellbeing_low, FamilyWellbeing_mod, FamilyWellbeing_high, FamilyWellbeing_great, Health_poor, Health_mod, Health_good, Health_great, Loneliness_high, Loneliness_mod, Loneliness_low, Loneliness_no, Education_low, Education_mod, Education_high, Education_great, Parliament_low, Parliament_mod, Parliament_high, Parliament_great,AgeGroup\n')
         for key, value in ages.items():
             f.write(",".join(value) + "," + key + "\n")
 
@@ -71,7 +71,7 @@ def print_csv2():
     """Get the ethnicities-percentage dictionary, set the attributes-satisfaction level as column headers and print out a csv file."""
     ethnics = change_ethnickeys()
     with open('ethnic.csv', 'w') as f:
-        f.write(' Inc_poor, Inc_low, Inc_mod, Inc_high, Disc, Cr_vhigh, Cr_high, Cr_mod, Cr_low, Cr_poor, Tr_poor, Tr_mod, Tr_good, Tr_great, Med_low, Med_mod, Med_high, Med_great, Pol_low, Pol_mod, Pol_high, Pol_great, ethnicities\n')
+        f.write('Income_poor, Income_low, Income_moderate, Income_high, Discrimination, Crime_vhigh, Crime_high, Crime_moderate, Crime_low, Crime_poor, PeopleTrust_poor, PeopleTrust_moderate, PeopleTrust_good, PeopleTrust_great, MediaTurst_low, MediaTrust_moderate, MediaTrust_high, MedTrust_great, TrustPolice_low, TrustPolice_moderate, TrustPolice_high, TrustPolice_great, ethnicities\n')
         for key, value in ethnics.items():
             f.write(",".join(value) + "," + key + "\n")
 
