@@ -21,14 +21,6 @@ Physio-informatics is defined as a systems based, physiologically robust referen
 
 Thesis: http://projects.mindtel.com/vader/users/davew/nc-01/webphd-nc/phdavew.htm
 
-### Principles
-
-David Jay Warner and Anne Gibbons bring to their partnership a shared commitment to holding themselves, each other, and their team as it grows, to unimpeachable integrity. That includes a commitment to the truth, to the search for the truth, and the intent to use it as a tool for community, service, and compassion, never as a weapon of cruelty. 
-
-This work for us is both a service to the memory of family and friends who inspired us with their courage, love, and passion, and a gift to those who follow us. Zee and Carlota will always be a part of our company’s fabric.
-
-Our work will be informed by neuroscience. Our ways of working are informed by the Walk Together principles. We look for problems in the world to work on, and clients to work with, that allow us to contribute to the wellbeing of people and planet.
-
 
 #### Online repository of David Jay Warner projects.
 
